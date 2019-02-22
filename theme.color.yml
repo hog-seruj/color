@@ -1,0 +1,46 @@
+color:
+  fields:
+    - color-1: t('Color 1')
+    - color-2: t('Color 2')
+    - color-3: t('Color 3')
+    - color-4: t('Color 4')
+    - color-5: t('Color 5')
+    - color-6: t('Color 6')
+    - color-7: t('Color 7')
+    - color-8: t('Color 8')
+    - color-9: t('Color 9')
+    - color-10: t('Color 10')
+    - color-11: t('Color 11')
+  schema:
+    default:
+      title: 'Default schema'
+      colors:
+        - color-1: '#2f3646'
+        - color-2: rgba(#afdbec, .3)
+        - color-3: hls(#ffffff)
+        - color-4: rgb(#c6cbcf)
+        - color-5: '#df74ad'
+        - color-6: '#43515f'
+        - color-7: '#94cee8'
+        - color-8: '#000000'
+        - color-9: '#435260'
+        - color-10: '#dd94ba'
+        - color-11: '#b9bab9'
+    alternate:
+      title: 'Alternate Palette'
+      colors:
+        - color-1: '#7d0000'
+        - color-2: '#d00000'
+        - color-3: '#ff3d2e'
+        - color-4: '#fb8c8c'
+        - color-5: '#ffcdd2'
+        - color-6: rgba(#ffcdd2, .5)
+        - color-7: hls(#ffcdd2)
+        - color-8: '#ffcdd2'
+        - color-9: rgb(#ffcdd2)
+        - color-10: '#ffcdd2'
+        - color-11: '#ffcdd2'
+    #CSS files (excluding @import) to rewrite with new color scheme.
+    css: dist/root-colors.css
+    librarie: theme_name/colors
+    preview: preview-colors.html.twig
